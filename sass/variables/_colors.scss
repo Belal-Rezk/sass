@@ -1,0 +1,11 @@
+$alt_color : green;
+.header {
+    color : $alt_color
+}
+.footer{
+    $alt_color : black !global ;
+    background-color: $alt_color;
+}
+.copyright {
+    background-color: $alt_color;
+}
